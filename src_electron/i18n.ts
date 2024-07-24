@@ -2,6 +2,7 @@ import i18n from 'i18next'
 import * as isDev from 'electron-is-dev'
 
 import * as languageEN from '../src/localization/en.json'
+//add tr
 import * as languageTR from '../src/localization/tr.json'
 
 i18n.init({
