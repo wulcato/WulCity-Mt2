@@ -1,5 +1,6 @@
 import * as http from 'http'
 import * as https from 'https'
+//yarn or npm crypto
 import { createHash } from 'crypto'
 import {
     access, constants, createReadStream, createWriteStream, existsSync
