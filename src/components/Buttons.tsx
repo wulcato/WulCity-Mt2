@@ -24,18 +24,20 @@ const Buttons: FunctionComponent = () => {
     return (
         <div className='relative'>
             <div className='absolute right-0'>
+            <span
+                    aria-hidden='true'
+                    className='flags flag-icon flag-icon-tr mr-3 text-white px-4 py-2 rounded mr-1 mb-1 ease-linear transition-all duration-150'
+                    style={{ width: '32px', height: '32px' }}
+                    onClick={() => changeLanguage('tr')}
+                />
                 <span
                     aria-hidden='true'
                     className='flags flag-icon flag-icon-gb mr-3 text-white px-4 py-2 rounded mr-1 mb-1 ease-linear transition-all duration-150'
                     style={{ width: '32px', height: '32px' }}
                     onClick={() => changeLanguage('en')}
                 />
-                <span
-                    aria-hidden='true'
-                    className='flags flag-icon flag-icon-pt mr-3 text-white px-4 py-2 rounded mr-1 mb-1 ease-linear transition-all duration-150'
-                    style={{ width: '32px', height: '32px' }}
-                    onClick={() => changeLanguage('pt')}
-                />
+                
+                
                 {
                     enableDiscordButton && (
                         <button

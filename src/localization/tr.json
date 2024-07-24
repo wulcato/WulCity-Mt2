@@ -1,0 +1,13 @@
+{
+    "translation": {
+        "settings": "Ayarlar",
+        "play": "Oyna",
+        "dlCompleted": "Güncelleme Tamamlandı!",
+        "dlProgress": "Güncelleme devam ediyor.",
+        "dlFile": "İndiriliyor: {{currentFile}}",
+        "noConnection": "İnternet bağlantısı yok.",
+        "errorConnection": "Sunucuya bağlanırken bir hata oluştu.",
+        "errorDownloadFile": "İndirme sırasında bir hata oluştu : {{fileName}}",
+        "errorSliderFile": "Slider uzak sunucuda yok!"
+    }
+}

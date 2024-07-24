@@ -1,11 +1,11 @@
-export const patchlistUrl = 'http://localhost/files.json'
-export const patchlistFolder = 'http://localhost/files/'
+export const patchlistUrl = 'http://192.168.1.31/files.json'
+export const patchlistFolder = 'http://192.168.1.31/files/'
 
 export const enableSlider = true //if false the slider will be disabled
 
 //if enableSlider is false the value of this variables is optional
-export const patchSliderUrl = 'http://localhost/slider.json'
-export const patchSliderImages = 'http://localhost/slider/'
+export const patchSliderUrl = 'http://192.168.1.31/slider.json'
+export const patchSliderImages = 'http://192.168.1.31/slider/'
 
 /*
 Karbust Localhost Debug URLs:
@@ -17,14 +17,14 @@ export const patchSliderImages = 'http://localhost:81/electron/slider/'
  */
 
 export const enableDiscordButton = true //if false the button will not be displayed.
-export const discordUrl = 'https://discord.gg/invite'
+export const discordUrl = 'https://discord.gg/EbVTWnFYq7'
 
 export const serverName = 'WulCity'
-export const binaryName = 'Metin2Debug.exe'
+export const binaryName = 'metin2client.bin'
 export const configName = 'config.exe'
 export const launchParameters = ['--something']
 
-export const enableLocaleCfgUpdate = false //if true the locale.cfg will be updated when changing the language.
+export const enableLocaleCfgUpdate = true //if true the locale.cfg will be updated when changing the language.
 export const localeCfgPath = 'locale.cfg' //default place, if it's inside a folder, prepend the path of such folder.
 /*
 Example:

@@ -2,15 +2,15 @@ import i18n from 'i18next'
 import * as isDev from 'electron-is-dev'
 
 import * as languageEN from '../src/localization/en.json'
-import * as languagePT from '../src/localization/pt.json'
+import * as languageTR from '../src/localization/tr.json'
 
 i18n.init({
     resources: {
         en: languageEN,
-        pt: languagePT
+        tr: languageTR
     },
-    supportedLngs: ['en', 'pt'],
-    fallbackLng: 'en',
+    supportedLngs: ['en', 'tr'],
+    fallbackLng: 'tr',
     debug: isDev,
     keySeparator: '.',
     interpolation: {
