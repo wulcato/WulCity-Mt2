@@ -5,7 +5,7 @@ module.exports = {
             4,
             {
                 "except": ["block"],
-                "message": "Please use 2 spaces for indentation. - Lütfen 2 karakter kullanın.",
+                "message": "Please use 2 spaces for indentation.",
                 "severity": "warning"
             }
         ],

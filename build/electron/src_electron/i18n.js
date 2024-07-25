@@ -25,14 +25,14 @@ exports.__esModule = true;
 var i18next_1 = __importDefault(require("i18next"));
 var isDev = __importStar(require("electron-is-dev"));
 var languageEN = __importStar(require("../src/localization/en.json"));
-var languagePT = __importStar(require("../src/localization/pt.json"));
+var languageTR = __importStar(require("../src/localization/tr.json"));
 i18next_1["default"].init({
     resources: {
         en: languageEN,
-        pt: languagePT
+        tr: languageTR
     },
-    supportedLngs: ['en', 'pt'],
-    fallbackLng: 'en',
+    supportedLngs: ['en', 'tr'],
+    fallbackLng: 'tr',
     debug: isDev,
     keySeparator: '.',
     interpolation: {
